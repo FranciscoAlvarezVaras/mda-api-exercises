@@ -32,7 +32,7 @@ def verify_password(username, password):
     return None
 
 # Route to register new users
-@app.route('/users', methods=['   '])  # TODO: Fill in the HTTP method
+@app.route('/users', methods=['POST'])  # TODO: Fill in the HTTP method
 # Hint: Use 'POST' to create a user
 def register_user():
     """
